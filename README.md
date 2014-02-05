@@ -1,15 +1,14 @@
-v4linux_lessons
-===============
+<b>Video for linux lessons
+-----------------------
 
-video for linux lessons
+<h2>Lesson1</h2>
 
+<h4>compile:</h4></b>
 
-Lesson1
+<code>$ gcc catvd.c -o catvd</code>
 
-compile:
+<b><h4>execute:<h4/><b/>
 
-gcc catvd.c -o catvd
+<code>$./catvd dev_name </code>   
 
-execute:
-
-./catvd dev_name      where dev_name - name of video device  (like  "/dev/video0")
+where <i>dev_name</i> - name of video device  (like  "/dev/video0")
